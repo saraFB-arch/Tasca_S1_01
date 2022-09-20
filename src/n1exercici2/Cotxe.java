@@ -41,6 +41,10 @@ public class Cotxe {
 	public void accelerar () {
 		System.out.println("El vehicle està accelerant.");
 	}
+	
+	public String toString(){
+		return "Aquest és un cotxe " + MARCA + ", model " + this.model + " amb una potència de " + this.POTENCIA;
+	}
 
 
 
