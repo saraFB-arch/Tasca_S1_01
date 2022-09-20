@@ -7,6 +7,7 @@ public class Main {
 		
 		
 		Cotxe micra1 = new Cotxe ("Micra");
+		System.out.println(micra1.toString());
 		
 		Cotxe.frenar(); /*Només podem invocar el mètode frenar des de la classe, 
 						perquè és static, però no "accelerar", que no és estàtic.*/
